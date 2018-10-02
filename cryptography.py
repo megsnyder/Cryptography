@@ -10,14 +10,15 @@ Write and submit a program that encrypts and decrypts user data.
 See the detailed requirements at https://github.com/HHS-IntroProgramming/Cryptography/blob/master/README.md
 """
 associations = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 .,:;'\"/\\<>(){}[]-=_+?!"
-n=0
-m=0
-o=0
-sum1 = []
-encrypt = []
-string = ' '
+
 inpu1t=''
 while inpu1t!='q':
+    n=0
+    m=0
+    o=0
+    sum1 = []
+    encrypt = []
+    string = ' '
     inpu1t= input("Enter e to encrypt, d to decrypt, or q to quit: ")
     if inpu1t == 'e':
         mess = input("Message: ")
