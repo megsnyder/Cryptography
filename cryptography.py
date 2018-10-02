@@ -58,7 +58,7 @@ elif inpu1t == 'd':
             n+=1
     tuples=list(zip(list1,list2))
     for i in list1:
-        add1=associations.find(list1[m])+associations.find(list2[m])
+        add1=associations.find(list1[m])-associations.find(list2[m])
         if add1>len(associations):
             add2=add1-len(associations)
         else:
